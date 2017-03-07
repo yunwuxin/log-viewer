@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  server:
+    image: webdevops/php-apache:ubuntu-14.04
+    volumes:
+      - .:/app
+    environment:
+      - WEB_DOCUMENT_ROOT=/app/public
+    ports:
+      - 80:80
