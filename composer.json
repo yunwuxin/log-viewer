@@ -16,11 +16,12 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.5.0",
         "topthink/framework": "dev-master",
         "yunwuxin/think-log-viewer": "dev-master"
     },
     "extra": {
         "think-path": "thinkphp"
-    }
+    },
+    "minimum-stability": "dev"
 }
