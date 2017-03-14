@@ -17,16 +17,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "^5.0",
-        "yunwuxin/think-log-view": "dev-master"
+        "topthink/framework": "dev-master",
+        "yunwuxin/think-log-viewer": "dev-master"
     },
     "extra": {
         "think-path": "thinkphp"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../think-log-view"
-        }
-    ]
+    }
 }

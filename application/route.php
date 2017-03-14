@@ -9,8 +9,24 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+use think\Log;
 use think\Route;
 
 Route::get('/', function () {
-    return redirect('/log-view');
+
+    //模拟日志
+    $log = function () {
+        $types = ['log', 'info', 'alert', 'error', 'debug', 'alert', 'notice', 'sql'];
+        shuffle($types);
+        $type = array_shift($types);
+        Log::record('some message', $type);
+    };
+
+    $i = rand(1, 5);
+    while ($i > 0) {
+        $log();
+        $i--;
+    }
+
+    return redirect('/log-viewer');
 });
