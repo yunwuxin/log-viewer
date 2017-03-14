@@ -23,5 +23,11 @@
     "extra": {
         "think-path": "thinkphp"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yunwuxin/think-log-viewer.git"
+        }
+    ]
 }
