@@ -23,11 +23,14 @@
     "extra": {
         "think-path": "thinkphp"
     },
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/yunwuxin/think-log-viewer.git"
+            "url": "https://git.topthink.com/topteam/framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://git.topthink.com/yunwuxin/think-log-view.git"
         }
     ]
 }
