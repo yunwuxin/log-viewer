@@ -2,3 +2,4 @@
 *.log
 thinkphp
 vendor
+composer.lock

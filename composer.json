@@ -22,15 +22,5 @@
     },
     "extra": {
         "think-path": "thinkphp"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://git.topthink.com/topteam/framework.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://git.topthink.com/yunwuxin/think-log-view.git"
-        }
-    ]
+    }
 }
