@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c80b2106196c711898f56ffa842dac62",
-    "content-hash": "7c751db148f9d7493b46e307800dd953",
+    "hash": "019db10bee9d4eb15e5b3cb304269bfa",
+    "content-hash": "1248e5acbbb325ab12fccec24f1d1fb3",
     "packages": [
         {
             "name": "jenssegers/date",
@@ -400,12 +400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yunwuxin/think-log-viewer.git",
-                "reference": "4243d6d2a16151e120133519f0a741657eff52d7"
+                "reference": "d79b0550d1a6d46011dd316b39c5868f485b1157"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yunwuxin/think-log-viewer/4243d6d2a16151e120133519f0a741657eff52d7.zip",
-                "reference": "4243d6d2a16151e120133519f0a741657eff52d7",
+                "url": "https://api.github.com/repos/yunwuxin/think-log-viewer/zipball/d79b0550d1a6d46011dd316b39c5868f485b1157",
+                "reference": "d79b0550d1a6d46011dd316b39c5868f485b1157",
                 "shasum": ""
             },
             "require": {
@@ -423,7 +423,6 @@
                     "src/common.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -433,7 +432,11 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2017-03-14 17:31:24"
+            "support": {
+                "source": "https://github.com/yunwuxin/think-log-viewer/tree/master",
+                "issues": "https://github.com/yunwuxin/think-log-viewer/issues"
+            },
+            "time": "2017-03-15 03:34:00"
         },
         {
             "name": "yunwuxin/think-twig",

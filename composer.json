@@ -22,5 +22,11 @@
     },
     "extra": {
         "think-path": "thinkphp"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yunwuxin/think-log-viewer.git"
+        }
+    ]
 }
