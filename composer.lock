@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "117351c2d801a09b64f62fb930f3529d",
-    "content-hash": "6535275b65caf463c4c6ab1d939a5d4d",
+    "hash": "c80b2106196c711898f56ffa842dac62",
+    "content-hash": "7c751db148f9d7493b46e307800dd953",
     "packages": [
         {
             "name": "jenssegers/date",
@@ -246,12 +246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "841edf205d8762c86da82f3023d40a2631f0599c"
+                "reference": "fdde40adaedb4e5b31f65663859a7241658922d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/top-think/framework/841edf205d8762c86da82f3023d40a2631f0599c.zip",
-                "reference": "841edf205d8762c86da82f3023d40a2631f0599c",
+                "url": "https://files.phpcomposer.com/files/top-think/framework/fdde40adaedb4e5b31f65663859a7241658922d6.zip",
+                "reference": "fdde40adaedb4e5b31f65663859a7241658922d6",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2017-03-15 02:36:24"
+            "time": "2017-03-15 03:06:25"
         },
         {
             "name": "topthink/think-installer",
@@ -485,7 +485,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.0"
+        "php": ">=5.6.0"
     },
     "platform-dev": []
 }
